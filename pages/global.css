@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-base: 10px;
+  --font-size-lg: 11px;
+  --font-size-xl: 12px;
+  --font-size-2xl: 13px;
+  --font-size-3xl: 14px;
+  --font-size-4xl: 15px;
+  --font-size-5xl: 16px;
+  --font-size-6xl: 18px;
+  --font-size-7xl: 22px;
+
+  /* Colors */
+  --color-gray-100: #f9fbfe;
+  --color-gray-200: #4c1130;
+  --text-color1: #070f21;
+  --color-gray-400: rgba(7, 15, 33, 0.6);
+  --color-gray-500: rgba(7, 15, 33, 0.2);
+  --color-gray-600: rgba(7, 15, 33, 0.15);
+  --color-gray-700: rgba(7, 15, 33, 0.05);
+  --color-gray-800: rgba(7, 15, 33, 0.06);
+  --color-gray-900: rgba(7, 15, 33, 0.3);
+  --color-gray-1000: rgba(7, 15, 33, 0.08);
+  --color-gray-1100: rgba(7, 15, 33, 0.04);
+  --color-gray-1200: rgba(7, 15, 33, 0.5);
+  --color-gray-1300: rgba(7, 15, 33, 0.1);
+  --color-whitesmoke-100: #eff2f5;
+  --color-whitesmoke-200: #eee;
+  --color-whitesmoke-300: #ebeced;
+  --primary-8001: #0e8cff;
+  --shade1: #fff;
+  --color-thistle-100: #ffdefc;
+  --color-thistle-200: #ead1dc;
+  --color-thistle-300: #d5a6bd;
+  --color-antiquewhite: #ffeede;
+  --color-plum-100: #ffa5f7;
+  --color-plum-200: #b0a1df;
+  --color-burlywood: #ffc690;
+  --color-lavender-100: #eeecfa;
+  --color-lavender-200: #deefff;
+  --color-lavender-300: #e9e5ff;
+  --color-lavender-400: #dde6fe;
+  --color-lavender-500: #cfe2f3;
+  --secondary-8001: #6248ff;
+  --color-ghostwhite: #f6f6ff;
+  --alert1: #faad14;
+  --color-orange-200: #ff9f1a;
+  --color-orange-300: #ff9900;
+  --color-darkgray: #aeb1b8;
+  --color-aliceblue: #e4f5ff;
+  --color-lavenderblush: #f9eff8;
+  --color-olive: #909301;
+  --color-mistyrose: #eecccc;
+  --color-fuchsia-100: #ff34eb;
+  --color-fuchsia-200: #ff0ff0;
+  --color-crimson: #dd1144;
+  --color-mediumblue: #1122dd;
+  --color-mediumorchid: #aa44cc;
+  --color-lightskyblue-100: #a4c3f2;
+  --color-lightskyblue-200: #a4c2f4;
+  --color-midnightblue: #20124d;
+  --color-darkslateblue-100: #1c4587;
+  --color-darkslateblue-200: #073763;
+  --color-darkslategray: #0c343d;
+  --color-darkolivegreen: #274e13;
+  --color-cornflowerblue-100: #6d9eeb;
+  --color-cornflowerblue-200: #8e7cc3;
+  --color-cornflowerblue-300: #4a86e8;
+  --color-peru: #e69138;
+  --color-orangered: #cc0000;
+  --color-darkred-100: #a61c00;
+  --color-darkred-200: #980000;
+  --color-darkseagreen-100: #b6d7a8;
+  --color-darkseagreen-200: #93c47d;
+  --color-sandybrown: #f6b26b;
+  --color-indianred: #e06666;
+  --color-firebrick: #cc4125;
+  --color-lightsteelblue: #9fc5e8;
+  --color-navajowhite: #f9cb9c;
+  --color-lightpink: #ea9999;
+  --color-gainsboro-100: #e7e8eb;
+  --color-gainsboro-200: #e6e7e9;
+  --color-gainsboro-300: #d0e0e3;
+  --color-beige: #d9ead3;
+  --color-blanchedalmond: #fce5cd;
+  --color-pink: #e6b8af;
+  --color-red: #ff0000;
+  --color-blue: #0000ff;
+  --color-aqua: #00ffff;
+  --color-lime: #00ff00;
+  --color-yellow: #ffff00;
+  --color-turquoise: #27e1bf;
+  --color-lightseagreen: #00aaaf;
+  --color-deeppink: #ff3477;
+  --color-gold: #f2d600;
+  --color-mediumslateblue: #8f76ff;
+  --color-deepskyblue-100: #34ceff;
+  --color-deepskyblue-200: #00c2ff;
+  --color-silver: #b4b8c1;
+  --color-lightslategray: #9499a5;
+  --color-slategray: #626b81;
+  --warning1: #e74926;
+
+  /* Gaps */
+  --gap-4xs: 2px;
+  --gap-3xs: 4px;
+  --gap-2xs: 5px;
+  --gap-xs: 6px;
+  --gap-sm: 8px;
+  --gap-md: 12px;
+  --gap-lg: 16px;
+  --gap-xl: 20px;
+  --gap-2xl: 24px;
+  --gap-3xl: 89px;
+
+  /* Paddings */
+  --padding-5xs: 2px;
+  --padding-4xs: 4px;
+  --padding-3xs: 6px;
+  --padding-2xs: 7px;
+  --padding-xs: 8px;
+  --padding-sm: 10px;
+  --padding-md: 12px;
+  --padding-lg: 15px;
+  --padding-xl: 16px;
+  --padding-2xl: 18px;
+  --padding-3xl: 20px;
+  --padding-4xl: 24px;
+  --padding-5xl: 30px;
+
+  /* border radiuses */
+  --br-4xs: 0.82px;
+  --br-3xs: 1px;
+  --br-2xs: 3.27px;
+  --br-xs: 4px;
+  --br-sm: 6px;
+  --br-md: 7px;
+  --br-lg: 8px;
+  --br-xl: 23px;
+  --br-2xl: 27px;
+  --br-3xl: 29px;
+  --br-4xl: 34px;
+}

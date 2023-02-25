@@ -1,0 +1,521 @@
+.span {
+  font-size: var(--font-size-4xl);
+}
+.backlog {
+  font-weight: 600;
+}
+.span1 {
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-1200);
+}
+.toDo3Container {
+  position: relative;
+  line-height: 20px;
+}
+.iconfilter {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.iconfilterParent,
+.toDo3Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.toDo3Parent {
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.iconmenuDot {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.cardHeader {
+  width: 192px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameChild {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.contactrm {
+  position: relative;
+  line-height: 12px;
+  opacity: 0.6;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.iconuserLead {
+  display: none;
+}
+.iconuserLead,
+.iconuserstar {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.6;
+}
+.frameContainer,
+.iconuserLeadParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.designAWebsite {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 184px;
+  opacity: 0.8;
+}
+.frameInner,
+.frameItem {
+  border-radius: var(--br-lg);
+  background-color: var(--color-burlywood);
+  width: 43px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.frameInner {
+  background-color: var(--color-plum-100);
+}
+.frameDiv {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.apicontactrmcom {
+  position: relative;
+  line-height: 10px;
+  opacity: 0.8;
+}
+.apicontactrmcomWrapper {
+  border-radius: var(--br-lg);
+  background-color: var(--color-antiquewhite);
+  padding: 0 var(--padding-4xs) var(--padding-5xs);
+  align-items: center;
+}
+.apicontactrmWrapper,
+.apicontactrmcomWrapper,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.apicontactrmWrapper {
+  border-radius: var(--br-lg);
+  background-color: var(--color-thistle-100);
+  padding: 0 var(--padding-4xs) var(--padding-5xs);
+  align-items: center;
+}
+.frameParent1 {
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.iconchecklist3Parent,
+.iconmessageParent {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.iconchecklist3Parent {
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.icondescriptionParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.icondescriptionParent {
+  align-items: flex-start;
+  gap: var(--gap-sm);
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: center;
+}
+.created3Days {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 94px;
+  height: 13px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.created3DaysAgoWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-1000);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-4xs);
+  align-items: center;
+  justify-content: center;
+}
+.ellipseIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.designAWebsiteParent,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.designAWebsiteParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-base);
+}
+.frameGroup {
+  flex: 1;
+  padding: var(--padding-xs);
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.workflowCard {
+  border-radius: var(--br-lg);
+  background-color: var(--shade1);
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild2 {
+  border-radius: var(--br-lg);
+  background-color: var(--color-burlywood);
+  width: 43px;
+  height: 6px;
+  flex-shrink: 0;
+  display: none;
+}
+.workflowCardParent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.iconplus {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.addCard {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button {
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-md);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.addCardButtonInner,
+.buttonWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.addCardButtonInner {
+  height: 34px;
+}
+.addCardButton {
+  position: relative;
+  width: 200px;
+  height: 34px;
+  flex-shrink: 0;
+  font-size: var(--font-size-2xl);
+  color: var(--primary-8001);
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-lg);
+}
+.cardHeaderParent,
+.frameParent,
+.workflowCardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cardHeaderParent {
+  position: absolute;
+  top: 117.66px;
+  left: 29px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-lavenderblush);
+  height: 414.35px;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.workflowCardWrapper {
+  padding: 0 var(--padding-xs);
+  align-items: flex-start;
+}
+.addCardButton1 {
+  position: relative;
+  width: 200px;
+  height: 34px;
+  flex-shrink: 0;
+  display: none;
+  font-size: var(--font-size-2xl);
+  color: var(--primary-8001);
+}
+.cardHeader2,
+.cardHeaderGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cardHeaderGroup {
+  position: absolute;
+  top: 117.66px;
+  left: 786px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-lavenderblush);
+  height: 203.34px;
+  flex-direction: column;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.cardHeader2 {
+  width: 192px;
+  flex-direction: row;
+  gap: var(--gap-3xl);
+}
+.iconmessageParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.workflowCard3,
+.workflowCardContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.workflowCard3 {
+  border-radius: var(--br-lg);
+  background-color: var(--shade1);
+  width: 195px;
+  flex-direction: row;
+  align-items: center;
+}
+.workflowCardContainer {
+  width: 216px;
+  flex-direction: column;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.cardHeaderContainer,
+.workflowCard11 {
+  border-radius: var(--br-lg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.workflowCard11 {
+  background-color: var(--shade1);
+  width: 192px;
+  flex-direction: row;
+}
+.cardHeaderContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavenderblush);
+  height: 1308px;
+  flex-direction: column;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.groupIcon {
+  position: absolute;
+  top: 36px;
+  left: 206px;
+  width: 8px;
+  height: 943.1px;
+}
+.buttonFrame,
+.cardHeaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cardHeaderWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) var(--br-lg) 0 0;
+  background-color: var(--color-lavenderblush);
+  height: 34px;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-md);
+  box-sizing: border-box;
+}
+.buttonFrame {
+  width: 200px;
+  flex-direction: row;
+}
+.frameWrapper14,
+.frameWrapper15 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper14 {
+  position: absolute;
+  top: 776px;
+  left: 0;
+  border-radius: var(--br-lg) var(--br-lg) 0 0;
+  background-color: var(--color-lavenderblush);
+  width: 216px;
+  height: 50px;
+  padding: var(--padding-xs) var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  font-size: var(--font-size-2xl);
+  color: var(--primary-8001);
+}
+.frameParent14 {
+  position: absolute;
+  top: 117.66px;
+  left: 477px;
+  border-radius: var(--br-lg);
+  width: 216px;
+  height: 1056.34px;
+  overflow-y: auto;
+}
+.groupParent {
+  position: absolute;
+  top: 108px;
+  left: -365px;
+  width: 1170px;
+  height: 1174px;
+}
+.frameChild53 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.panOutChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  background-color: var(--secondary-8001);
+  width: 40px;
+  height: 40px;
+}
+.iconarrowChevron {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.panOut {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: none;
+}
+.frameParent71,
+.groupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameParent71 {
+  position: absolute;
+  top: 476px;
+  left: 992px;
+}
+.cardFilterWithSpaceColorC {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1440px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--text-color1);
+  font-family: var(--font-inter);
+}

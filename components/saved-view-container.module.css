@@ -1,0 +1,72 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--shade1);
+  box-shadow: 0 0 16px rgba(174, 178, 193, 0.1);
+  width: 581px;
+  height: 364px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 61.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 582px;
+  height: 1px;
+}
+.groupInner {
+  top: 277.5px;
+}
+.iconsave {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.6;
+}
+.savedAsView {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.iconsaveParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.frameIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.frameParent {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 533px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 581px;
+  height: 364px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--text-color1);
+  font-family: var(--font-inter);
+}

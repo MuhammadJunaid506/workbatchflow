@@ -1,0 +1,247 @@
+.frameChild {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.oct24At {
+  color: var(--text-color1);
+}
+.snoozedUntilOctContainer {
+  position: relative;
+}
+.ellipseParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.ellipseParent {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  position: absolute;
+  top: 109.13px;
+  left: 0;
+  border-radius: 0 0 var(--br-lg) var(--br-lg);
+  background-color: var(--color-lavender-300);
+  width: 257px;
+  height: 24px;
+  padding: var(--padding-4xs) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameItem {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.contactrm {
+  position: relative;
+  line-height: 12px;
+  opacity: 0.6;
+}
+.ellipseGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.iconuserLead {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+  opacity: 0.6;
+}
+.frameContainer,
+.iconuserLeadParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.designAWebsite {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 184px;
+  opacity: 0.8;
+}
+.frameChild1,
+.frameInner {
+  border-radius: var(--br-lg);
+  background-color: var(--color-burlywood);
+  width: 43px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.frameChild1 {
+  background-color: var(--color-plum-100);
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.apicontactrmcom {
+  position: relative;
+  line-height: 10px;
+  opacity: 0.8;
+}
+.apicontactrmcomWrapper {
+  border-radius: var(--br-lg);
+  background-color: var(--color-antiquewhite);
+  display: flex;
+  padding: 0 var(--padding-4xs) var(--padding-5xs);
+  align-items: center;
+}
+.apicontactrmWrapper,
+.apicontactrmcomWrapper,
+.frameParent1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.apicontactrmWrapper {
+  border-radius: var(--br-lg);
+  background-color: var(--color-thistle-100);
+  display: flex;
+  padding: 0 var(--padding-4xs) var(--padding-5xs);
+  align-items: center;
+}
+.frameParent1 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.div,
+.icondescription {
+  position: relative;
+  opacity: 0.6;
+}
+.icondescription {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.div {
+  font-weight: 500;
+}
+.iconmessageParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameWrapper1,
+.icondescriptionParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.icondescriptionParent {
+  align-items: flex-start;
+  gap: var(--gap-sm);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  align-items: center;
+}
+.created3Days {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 94px;
+  height: 13px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.created3DaysAgoWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-1000);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-4xs);
+  align-items: center;
+  justify-content: center;
+}
+.ellipseIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.designAWebsiteParent,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.designAWebsiteParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-base);
+}
+.frameGroup {
+  flex: 1;
+  padding: var(--padding-xs);
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.workflowCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) var(--br-lg) 0 0;
+  background-color: var(--shade1);
+  width: 257px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-color1);
+}
+.frameParent {
+  position: relative;
+  width: 257px;
+  height: 133.13px;
+  flex-shrink: 0;
+}
+.maskGroupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maskGroup {
+  position: relative;
+  width: 257px;
+  height: 133.13px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}

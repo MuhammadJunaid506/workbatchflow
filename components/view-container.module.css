@@ -1,0 +1,135 @@
+.viewName {
+  position: relative;
+  line-height: 16px;
+  opacity: 0.8;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 533px;
+  height: 46px;
+}
+.groupItem {
+  border-radius: 0 var(--br-lg) var(--br-lg) 0;
+  border: 1px solid var(--color-gainsboro-200);
+  width: 62px;
+}
+.chevronDown1Icon,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  border-radius: var(--br-xs);
+  background-color: var(--text-color1);
+  border: 1px solid var(--text-color1);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+.chevronDown1Icon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  opacity: 0.6;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 11px;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 471px;
+  width: 62px;
+  height: 46px;
+}
+.chevronDown1Icon1 {
+  position: absolute;
+  top: 36px;
+  left: 495px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  display: none;
+  opacity: 0.6;
+}
+.enterName {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  line-height: 16px;
+  opacity: 0.4;
+}
+.rectangleParent {
+  position: relative;
+  width: 533px;
+  height: 46px;
+  flex-shrink: 0;
+  font-size: var(--font-size-3xl);
+}
+.viewNameParent {
+  gap: var(--gap-sm);
+}
+.frameContainer,
+.frameParent,
+.frameWrapper,
+.viewNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent,
+.frameWrapper {
+  justify-content: center;
+}
+.frameParent {
+  position: absolute;
+  top: 92px;
+  left: 24px;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+}
+.save {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.saveWrapper {
+  position: absolute;
+  top: 298px;
+  left: 478px;
+  border-radius: var(--br-lg);
+  background-color: var(--primary-8001);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-4xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-2xl);
+  color: var(--shade1);
+}
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 581px;
+  height: 364px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--text-color1);
+  font-family: var(--font-inter);
+}

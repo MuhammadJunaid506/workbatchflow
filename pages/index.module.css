@@ -1,0 +1,117 @@
+/* .frameChild {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+} */
+.frameChild img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.groupParent{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.framechild:hover{
+  transform:scale(1.3);
+  z-index: 2;
+}
+.panOutChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  background-color: var(--secondary-8001);
+  width: 40px;
+  height: 40px;
+}
+.iconarrowChevron {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.panOut {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: none;
+}
+.frameParent,
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  transition: 1s;
+}
+.frameParent {
+  position: absolute;
+  top: 476px;
+  left: 85rem;
+}
+.groupContainer {
+  position: absolute;
+  top: 76px;
+  left: 16.5rem;
+  width: 1175px;
+  height: 918px;
+}
+.groupJohn {
+  position: absolute;
+  left: 19rem;
+}
+.groupJohn1 {
+  position: absolute;
+  left: 14rem;
+}
+.groupJohn2 {
+  position: absolute;
+  left: 5rem;
+}
+.groupJohn3{
+  position: absolute;
+  left: 9.8rem;
+}
+.groupChild {
+  border-radius: var(--br-lg);
+  background-color: var(--shade1);
+  box-shadow: 0 12px 24px rgba(174, 178, 193, 0.2);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+}
+.groupChild,
+.rectangleParent,
+.selectProject1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 161px;
+}
+.selectProject1 {
+  top: 539px;
+  left: 238px;
+  width: 148px;
+}
+.selectProject {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1440px;
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.forheader{
+  position: fixed;
+  position: sticky;
+  top: 0;
+}

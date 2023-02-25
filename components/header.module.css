@@ -1,0 +1,197 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-lg) var(--br-lg) 0;
+  background-color: var(--shade1);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+}
+.iconarrowChevron {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  opacity: 0.6;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 141px;
+  width: 40px;
+  height: 40px;
+}
+.groupItem {
+  left: 0;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  background-color: var(--color-gray-800);
+  width: 141px;
+}
+.frameChild {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--alert1);
+  width: 24px;
+  height: 20px;
+}
+.div {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+}
+.rectangleContainer {
+  position: relative;
+  width: 24px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameItem {
+  position: relative;
+  border-right: 1px solid var(--text-color1);
+  box-sizing: border-box;
+  width: 1px;
+  height: 25px;
+  flex-shrink: 0;
+  opacity: 0.1;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-plum-200);
+  width: 24px;
+  height: 20px;
+}
+.frameParent {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 141px;
+  height: 40px;
+}
+.groupParent,
+.iconsearch,
+.topMenuChild {
+  position: relative;
+  width: 181px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.iconsearch,
+.topMenuChild {
+  width: 40px;
+}
+.iconsearch {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.search {
+  position: relative;
+  line-height: 20px;
+  opacity: 0.4;
+}
+.iconsearchParent {
+  width: 83.52px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameWrapper,
+.groupContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 635px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 var(--padding-sm) var(--padding-md);
+}
+.groupContainer {
+  flex-direction: row;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--text-color1);
+}
+.ellipseIcon {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameDiv,
+.topMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.topMenu {
+  position: fixed;
+  background-color: white;
+  z-index: 90099;
+  top: 0;
+  left: 235px;
+  background-color: var(--shade1);
+  border-bottom: 1px solid var(--color-gray-1000);
+  box-sizing: border-box;
+  width: 1170px;
+  padding: var(--padding-2xl) var(--padding-5xl);
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--shade1);
+  font-family: var(--font-inter);
+}

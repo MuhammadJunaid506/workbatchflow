@@ -1,0 +1,79 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--shade1);
+  box-shadow: 0 12px 24px rgba(174, 178, 193, 0.2);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 273px;
+  height: 157px;
+}
+.moveAllCards {
+  position: relative;
+  line-height: 20px;
+  opacity: 0.7;
+}
+.moveAllCardsInThisListWrapper {
+  width: 307px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-3xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent,
+.groupItem {
+  position: absolute;
+  left: 1px;
+}
+.frameParent {
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.groupItem {
+  top: 51px;
+  width: 271px;
+  height: 1px;
+}
+.listActions {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.4;
+}
+.listActionsParent {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-4xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 308px;
+  height: 157px;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--text-color1);
+  font-family: var(--font-inter);
+}

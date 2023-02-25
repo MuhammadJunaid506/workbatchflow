@@ -1,0 +1,135 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--shade1);
+  box-shadow: 0 0 16px rgba(174, 178, 193, 0.1);
+  width: 492px;
+  height: 248px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 49.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 493px;
+  height: 1px;
+}
+.groupInner {
+  top: 139.5px;
+}
+.delete {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+}
+.deleteWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 444px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.lineParent,
+.rectangleParent {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 492px;
+  height: 140px;
+}
+.rectangleParent {
+  top: 0;
+  height: 248px;
+}
+.areYouSure {
+  position: relative;
+  line-height: 16px;
+  opacity: 0.8;
+}
+.areYouSureYouWantToDeletWrapper,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  position: absolute;
+  top: 90px;
+  left: 24px;
+  font-size: var(--font-size-3xl);
+}
+.cancel {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.cancelWrapper {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-1100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-4xl);
+  align-items: center;
+  justify-content: center;
+}
+.delete1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.deleteContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+}
+.deleteContainer {
+  border-radius: var(--br-lg);
+  background-color: var(--warning1);
+  padding: var(--padding-md) var(--padding-4xl);
+  align-items: center;
+  justify-content: center;
+  color: var(--shade1);
+}
+.frameGroup {
+  position: absolute;
+  top: 180px;
+  left: 276px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  font-size: var(--font-size-2xl);
+}
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 492px;
+  height: 248px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--text-color1);
+  font-family: var(--font-inter);
+}

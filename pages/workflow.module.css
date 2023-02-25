@@ -1,0 +1,74 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 1024px;
+}
+.frameChild {
+  position: relative;
+  width: 36px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.panOutChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  background-color: var(--secondary-8001);
+  width: 40px;
+  height: 40px;
+}
+.iconarrowChevron {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.panOut {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: none;
+}
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameItem {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 476px;
+  left: 992px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.groupContainer {
+  position: absolute;
+  top: 53px;
+  left: 245px;
+  width: 1175px;
+  height: 918px;
+}
+.workflow {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1440px;
+  overflow-y: auto;
+}
