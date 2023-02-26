@@ -1,4 +1,9 @@
+import { useState } from 'react';
 import styles from "./sidebar-container.module.css";
+// const drawerToggle = document.querySelector('.drawer-toggle');
+// const drawer = document.querySelector('.drawer');
+
+// const [isOpen, setIsOpen] = useState(false);
 
 const SidebarContainer = ({
   arrowIconUrl,
@@ -18,8 +23,11 @@ const SidebarContainer = ({
   checkIconUrl,
 }) => {
   return (
+    <>
     <div className={styles.sidebar}>
-      <div className={styles.sideBar}>
+      {/* <div className={`${styles.drawer} ${isOpen ? styles.active : ''}`}> */}
+      {/* <div className={styles.sideBar}> */}
+      <div className={styles.drawercontent}>
         <div className={styles.sideBarChild} />
         <div className={styles.frameParent}>
           <div className={styles.frameWrapper}>
@@ -34,6 +42,12 @@ const SidebarContainer = ({
                   alt=""
                   src="../iconarrow-chevron1.svg"
                 />
+                {/* <button className={styles['drawer-toggle']} onClick={() => setIsOpen(!isOpen)}>{">"} */}
+
+                {/* drawerToggle.addEventListener('click', function() {
+                drawer.classList.toggle('active');
+                }); */}
+                {/* </button> */}
               </div>
             </div>
           </div>
@@ -51,7 +65,8 @@ const SidebarContainer = ({
                   src={dashboardIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Dashboard</a></div>
+                {/* <a href="/">Dashboard</a> */}
+                </div>
               </div>
             </div>
             <div className={styles.rectangleParent}>
@@ -65,7 +80,8 @@ const SidebarContainer = ({
                     <div className={styles.rectangleDiv} />
                   </div>
                   <div className={styles.dashboard}>
-                  <a href="/">Workflow</a></div>
+                  {/* <a href="/">Workflow</a> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -79,7 +95,8 @@ const SidebarContainer = ({
                     src={calendarIconUrl}
                   />
                   <div className={styles.dashboard}>
-                  <a href="/">Calendar</a></div>
+                  {/* <a href="/">Calendar</a> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -93,7 +110,8 @@ const SidebarContainer = ({
                     src={socialMediaIconUrl}
                   />
                   <div className={styles.dashboard}>
-                  <a href="/">SocialRM</a></div>
+                  {/* <a href="/">SocialRM</a> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -106,7 +124,8 @@ const SidebarContainer = ({
                   src={analyticsIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Metrics</a></div>
+                {/* <a href="/">Metrics</a> */}
+                </div>
               </div>
               <img className={styles.dot01Xs1Icon} alt="" src={dotIconUrl} />
             </div>
@@ -119,7 +138,8 @@ const SidebarContainer = ({
                   src={userLeadIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Leads</a></div>
+                {/* <a href="/">Leads</a> */}
+                </div>
               </div>
               <img className={styles.dot01Xs1Icon1} alt="" src={dotIcon1Url} />
             </div>
@@ -132,7 +152,8 @@ const SidebarContainer = ({
                   src={userStarIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Users</a></div>
+                {/* <a href="/">Users</a> */}
+                </div>
               </div>
             </div>
             <div className={styles.rectangleParent}>
@@ -144,7 +165,8 @@ const SidebarContainer = ({
                   src={notificationIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Notifications</a></div>
+                {/* <a href="/">Notifications</a> */}
+                </div>
               </div>
               <img className={styles.dot01Xs1Icon2} alt="" src={dotIcon1Url2} />
             </div>
@@ -157,7 +179,8 @@ const SidebarContainer = ({
                   src={documentIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Documents</a></div>
+                {/* <a href="/">Documents</a> */}
+                </div>
               </div>
               <img className={styles.dot01Xs1Icon3} alt="" src={dotIcon2Url} />
             </div>
@@ -170,7 +193,8 @@ const SidebarContainer = ({
                   src={segmentIconUrl}
                 />
                 <div className={styles.dashboard}>
-                <a href="/">Segments</a></div>
+                {/* <a href="/">Segments</a> */}
+                </div>
               </div>
             </div>
           </div>
@@ -180,12 +204,15 @@ const SidebarContainer = ({
             <div className={styles.iconfileCheckParent}>
               <img className={styles.icondashboad} alt="" src={checkIconUrl} />
               <div className={styles.dashboard}>
-              <a href="/">Company</a></div>
+              {/* <a href="/">Company</a> */}
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {/* </div> */}
     </div>
+    </>
   );
 };
 

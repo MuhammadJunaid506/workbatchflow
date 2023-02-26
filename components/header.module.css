@@ -195,3 +195,18 @@
   color: var(--shade1);
   font-family: var(--font-inter);
 }
+@media screen and (max-width: 768px) {
+  .topMenu {
+    font-size: 20px;
+    padding: 16px;
+    width: 786px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .topMenu {
+    font-size: 18px;
+    padding: 12px;
+    width: 480px;
+  }
+}
