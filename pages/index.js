@@ -7,18 +7,18 @@ import CardForm from "../components/card-form";
 import CardFilter1 from "../components/card-filter1";
 import LeadBankContainer from "../components/lead-bank-container";
 import styles from "./index.module.css";
+// import Layout from '../components/Layout';
 
 
 
 const SelectProject = () => {
   return (
     <div className={styles.selectProject}>
-    
-      <Header className="forheader"
+    <Header className="forheader"
         groupImageUrl="../group-19511.svg"
         groupImageUrl195="../group-20111.svg"
       />
-      
+      {/* <Layout> */}
       <div className="forsidebar">
       <SidebarContainer
         arrowIconUrl="icondouble-arrow8.svg"
@@ -38,6 +38,8 @@ const SelectProject = () => {
         checkIconUrl="../iconfile-check257.svg"
       />
       </div>
+      {/* </Layout> */}
+      <div className="foraddcontainer">
       <div className={styles.frameParent}>
         <div className={styles.groupParent}>
           <img className={styles.frameChild} alt="" src="../group-12991.svg" />
@@ -78,7 +80,7 @@ const SelectProject = () => {
           iconSaveText="../iconsave11.svg"
           frameSvgUrl="../frame.svg"
         />
-        <div className="foraddcontainer">
+        
         <AddContainer
           sortByText="(2)"
           sortByIconUrl="iconsort-by51.svg"
@@ -100,7 +102,7 @@ const SelectProject = () => {
           iconLinkText2="../iconlink.svg"
           closeText="iconclose12.svg"
         />
-        </div>
+        
         <div className={styles.groupJohn}>
         <CardContainer
           completionStatus="Completed"
@@ -320,6 +322,7 @@ const SelectProject = () => {
           <div className={styles.groupChild} />
           <LeadBankContainer />
         </div>
+      </div>
       </div>
     </div>
   );

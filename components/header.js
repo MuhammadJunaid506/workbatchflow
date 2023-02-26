@@ -45,10 +45,14 @@ const Header = ({ groupImageUrl, groupImageUrl195 }) => {
       <div className={styles.groupContainer}>
         <img className={styles.topMenuChild} alt="" src={groupImageUrl195} />
         <div className={styles.frameWrapper}>
-          <div className={styles.iconsearchParent}>
-            <img className={styles.iconsearch} alt="" src="../iconsearch.svg" />
-            <div className={styles.search}>Search</div>
-          </div>
+          <form className={styles.iconsearchParent}>
+            {/* <form action=""> */}
+            {/* <div className={styles.search}> */}
+            <button type="submit"><img className={styles.iconsearch} src="../iconsearch.svg" /></button>
+              <input className={styles.search}type="text" placeholder="Search" name="q"></input>
+              {/* </div> */}
+            {/* </form> */}
+          </form>
         </div>
       </div>
       <div className={styles.frameDiv}>

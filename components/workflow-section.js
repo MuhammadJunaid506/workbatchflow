@@ -127,6 +127,30 @@ const WorkflowSection = ({
   }, [propOpacity5]);
 
   const frameDiv59Style = useMemo(() => {
+    function showPopup() {
+      // Get the popup element
+      var popup = document.getElementById("popup");
+    
+      // Set the popup to display
+      popup.style.display = "block";
+    
+      // Add an event listener to hide the popup when clicked outside of it
+      document.addEventListener("click", hidePopup);
+    
+      // Prevent the default behavior of the button click
+      event.preventDefault();
+    }
+    
+    function hidePopup() {
+      // Get the popup element
+      var popup = document.getElementById("popup");
+    
+      // Set the popup to hide
+      popup.style.display = "none";
+    
+      // Remove the event listener to prevent it from being called multiple times
+      document.removeEventListener("click", hidePopup);
+    }
     return {
       top: propTop1,
       left: propLeft2,
@@ -321,16 +345,19 @@ const WorkflowSection = ({
           </div>
         </div>
         <div className={styles.frameDiv}>
-          <div className={styles.iconsortByParent}>
-            <img className={styles.frameIcon} alt="" src={frameSvgUrl} />
+          <button className={styles.iconsortByParent} id="filterButton" onclick="showPopup()">
+          <img className={styles.frameIcon} alt="" src={frameSvgUrl} />
             <div className={styles.views}>Filter</div>
-          </div>
+          </button>
+          {/* <div id="popup" style="display: none;">
+            This is the filter popup.
+          </div> */}
         </div>
         <div className={styles.frameDiv}>
-          <div className={styles.iconsortByParent}>
+          <button className={styles.iconsortByParent}>
             <img className={styles.frameIcon} alt="" />
             <div className={styles.views}>Sort by</div>
-          </div>
+          </button>
         </div>
       </div>
     </div>

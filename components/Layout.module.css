@@ -1,0 +1,21 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .drawer {
+    background-color: #f0f0f0;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    transition: width 0.5s;
+    width: 0;
+    z-index: 1;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 1rem;
+  }

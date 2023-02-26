@@ -273,26 +273,25 @@ const AddContainer = ({
             <img className={styles.iconclose} alt="" src={closeText} />
           </div>
           <div className={styles.cardParent}>
-            <div className={styles.card}>
-              <div className={styles.enterCardNameContainer}>
-                <span>|</span>
-                <span className={styles.enterCardName}>Enter card name</span>
-              </div>
-            </div>
+            <form className={styles.card}>
+              {/* <div className={styles.enterCardNameContainer}> */}
+              <input className={styles.card} type="text" placeholder="Enter card name" name=""></input>
+              {/* </div> */}
+            </form>
             <div className={styles.buttonParent}>
               <div className={styles.button}>
-                <div className={styles.selectProjectParent}>
-                  <div className={styles.selectProject}>Select Project</div>
+                <form className={styles.selectProjectParent}>
+                <input className={styles.selectProjectParent} type="text" placeholder="Select Project" name=""></input>
                   <img
                     className={styles.iconarrowChevron}
                     alt=""
                     src="../iconarrow-chevron1.svg"
                   />
-                </div>
+                </form>
               </div>
-              <div className={styles.button1}>
+              <button className={styles.button1}>
                 <div className={styles.add}>Add</div>
-              </div>
+              </button>
             </div>
           </div>
         </div>
