@@ -2,8 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  /* background-color: var(--shade1); */
-  background-color: black;
+  background-color: var(--shade1);
   border-right: 1px solid var(--color-gray-1000);
   box-sizing: border-box;
   width: 250px;
